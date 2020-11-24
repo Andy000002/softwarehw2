@@ -5,8 +5,10 @@ int arr[5];
 
 void backtracking(int n){
     if(n==5){    //如果陣列0~4格每格的值設定完後就輸出答案
-        for(int i=0;i<5;i++)
+        for(int i=0;i<5;i++){ 
             cout<<arr[i]);
+            printf("%d",arr[i]);
+            } 
         printf("\n");
         return;
     }
